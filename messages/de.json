@@ -1,0 +1,91 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"meta": {
+		"title": "Kanlo – Kanban für Teams",
+		"description": "Kanlo ist eine schnelle, fokussierte Kanban-Plattform. Starte in Minuten in der Cloud oder betreibe sie auf deinen eigenen Servern."
+	},
+	"nav": {
+		"features": "Funktionen",
+		"pricing": "Preise",
+		"docs": "Doku",
+		"marketplace": "Marketplace",
+		"blog": "Blog"
+	},
+	"hero": {
+		"eyebrow": "Kanban · Cloud & Self-Hosted · In Rust gebaut",
+		"title1": "Arbeit bewegt sich.",
+		"title2": "Kanlo",
+		"title3": "hält Schritt.",
+		"intro": "Eine schnelle, fokussierte Kanban-Plattform. Starte in Minuten in der Cloud oder betreibe sie auf deinen eigenen Servern.",
+		"cta": "Kostenlos starten",
+		"docs": "Zur Dokumentation →"
+	},
+	"board": {
+		"title": "Q4 Launch",
+		"meta": "Hauptboard · 9 Karten",
+		"backlog": "Backlog",
+		"inProgress": "In Arbeit",
+		"review": "Review",
+		"done": "Erledigt",
+		"card1": "Release Notes schreiben",
+		"card2": "Texte für die Preisseite",
+		"card3": "Plugin-API ausliefern",
+		"card4": "Design für den Audit-Log",
+		"card5": "Anmeldung migrieren",
+		"card6": "Cloud-Region einrichten",
+		"card7": "Einladungs-Flow"
+	},
+	"features": {
+		"title": "Alles, was ein Team braucht. Nicht mehr.",
+		"boards": {
+			"title": "Boards, die mitwachsen",
+			"text": "Projekte, Boards und Spalten mit Karten, Labels, Fälligkeitsdaten und Zuständigen."
+		},
+		"permissions": {
+			"title": "Feingranulare Berechtigungen",
+			"text": "Rollen für Eigentümer, Admins und Mitglieder, dazu individuelle Ausnahmen pro Mitglied sowie gemeinsame Label- und Zuständigen-Gruppen."
+		},
+		"github": {
+			"title": "GitHub-Spiegel-Boards",
+			"text": "Sieh deine GitHub-Issues auf einem schreibgeschützten Board, direkt neben deiner eigenen Arbeit."
+		},
+		"plugins": {
+			"title": "Plugins & Vorlagen",
+			"text": "Erweitere Kanlo mit WASM-Plugins und Vorlagen aus dem Marketplace."
+		},
+		"rust": {
+			"title": "In Rust gebaut",
+			"text": "Ein schlankes Binary für API, Web-App und Admin. Schnell im Betrieb, einfach zu betreiben."
+		},
+		"calendar": {
+			"title": "Kalender-Feeds",
+			"text": "Abonniere Fälligkeitstermine in deinem Kalender per schreibgeschütztem ICS-Feed."
+		}
+	},
+	"soon": "Demnächst",
+	"deploy": {
+		"cloudLabel": "Kanlo Cloud",
+		"cloudTitle": "Registrieren. Einladen. Ausliefern.",
+		"cloudText": "Auf europäischen Servern gehostet und immer aktuell. Keine Einrichtung, kein Wartungsaufwand.",
+		"enterpriseLabel": "Kanlo Enterprise",
+		"enterpriseTitle": "Deine Server. Deine Regeln.",
+		"enterpriseText": "Betreibe es auf deinen eigenen Servern oder nutze einen dedizierten Server. Inklusive Microsoft-Anmeldung.",
+		"audit": "Audit-Log · Demnächst"
+	},
+	"pricing": {
+		"title": "Preis pro Nutzer.",
+		"sub": "Pro Nutzer und Monat.",
+		"inclVat": "inkl. 19 % MwSt.",
+		"exclVat": "zzgl. MwSt.",
+		"team": { "includes": "Boards, Projekte und Karten · Labels und Zuständige · [TEAM FEATURES]" },
+		"business": { "includes": "Alles aus Team · [BUSINESS FEATURES]" },
+		"enterprise": {
+			"includes": "Alles aus Business · Microsoft-Anmeldung · Self-Hosted oder dediziert · Audit-Log"
+		}
+	},
+	"cta": { "title": "Bereit, deine Arbeit voranzubringen?" },
+	"footer": {
+		"copyright": "© {year} RealGolf.Games UG (haftungsbeschränkt). Kanlo™ und Swingalytica™.",
+		"imprint": "Impressum"
+	}
+}

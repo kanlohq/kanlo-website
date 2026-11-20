@@ -1,0 +1,103 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/bricolage-grotesque';
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/jetbrains-mono';
+
+@theme {
+	--color-navy: #17213a;
+	--color-navy-2: #243152;
+	--color-navy-3: #3a4a6e;
+	--color-amber: #e2984a;
+	--color-moss: #33503c;
+	--color-paper: #f4f5f2;
+	--color-muted: #4f5b6b;
+	--color-mist: #9fb0c7;
+	--font-display: 'Bricolage Grotesque Variable', 'Inter Variable', sans-serif;
+	--font-sans: 'Inter Variable', system-ui, sans-serif;
+	--font-mono: 'JetBrains Mono Variable', ui-monospace, monospace;
+}
+
+@layer base {
+	@media (prefers-reduced-motion: no-preference) {
+		html {
+			scroll-behavior: smooth;
+		}
+	}
+
+	body {
+		@apply bg-paper font-sans text-navy antialiased;
+	}
+}
+
+@utility display {
+	font-family: var(--font-display);
+	font-weight: 800;
+	letter-spacing: -0.035em;
+}
+
+@utility label {
+	font-family: var(--font-mono);
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+@utility btn {
+	@apply inline-flex min-h-12 items-center justify-center rounded-full px-7 font-semibold transition duration-200 hover:-translate-y-0.5 hover:shadow-xl;
+}
+
+@keyframes rise {
+	from {
+		opacity: 0;
+		transform: translateY(32px);
+	}
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+@keyframes sweep {
+	from {
+		background-size: 0 100%;
+	}
+	to {
+		background-size: 100% 100%;
+	}
+}
+@keyframes bob {
+	0%,
+	100% {
+		transform: rotate(-2.5deg) translateY(0);
+	}
+	50% {
+		transform: rotate(-1deg) translateY(-10px);
+	}
+}
+
+.enter {
+	animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) backwards;
+}
+.marker {
+	background: linear-gradient(var(--color-amber), var(--color-amber)) 0 0 / 100% 100% no-repeat;
+	animation: sweep 0.9s 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) backwards;
+}
+.bob {
+	animation: bob 5s ease-in-out infinite;
+}
+/* Scroll-driven reveal; browsers without support simply show the content. */
+@supports (animation-timeline: view()) {
+	.reveal {
+		animation: rise linear backwards;
+		animation-timeline: view();
+		animation-range: entry 0% entry 45%;
+	}
+}
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation: none !important;
+		transition: none !important;
+	}
+}

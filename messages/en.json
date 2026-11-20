@@ -1,0 +1,91 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"meta": {
+		"title": "Kanlo – Kanban for teams",
+		"description": "Kanlo is a fast, focused Kanban platform. Start in the cloud in minutes, or run it on your own servers."
+	},
+	"nav": {
+		"features": "Features",
+		"pricing": "Pricing",
+		"docs": "Docs",
+		"marketplace": "Marketplace",
+		"blog": "Blog"
+	},
+	"hero": {
+		"eyebrow": "Kanban · Cloud & self-hosted · Built in Rust",
+		"title1": "Work moves.",
+		"title2": "Kanlo",
+		"title3": "keeps up.",
+		"intro": "A fast, focused Kanban platform. Start in the cloud in minutes, or run it on your own servers.",
+		"cta": "Start for free",
+		"docs": "Read the docs →"
+	},
+	"board": {
+		"title": "Q4 Launch",
+		"meta": "Main board · 9 cards",
+		"backlog": "Backlog",
+		"inProgress": "In progress",
+		"review": "Review",
+		"done": "Done",
+		"card1": "Write release notes",
+		"card2": "Pricing page copy",
+		"card3": "Ship plugin API",
+		"card4": "Audit log design",
+		"card5": "Migrate sign-in flow",
+		"card6": "Set up Cloud region",
+		"card7": "Invite flow"
+	},
+	"features": {
+		"title": "Everything a team needs. Nothing it doesn’t.",
+		"boards": {
+			"title": "Boards that flex",
+			"text": "Projects, boards and columns with cards, labels, due dates and assignees."
+		},
+		"permissions": {
+			"title": "Granular permissions",
+			"text": "Roles for owners, admins and members, plus per-member overrides and shared label and assignee groups."
+		},
+		"github": {
+			"title": "GitHub mirror boards",
+			"text": "See your GitHub issues on a read-only board, right next to your own work."
+		},
+		"plugins": {
+			"title": "Plugins & templates",
+			"text": "Extend Kanlo with WASM plugins and templates from the marketplace."
+		},
+		"rust": {
+			"title": "Built in Rust",
+			"text": "One lean binary for API, web app and admin. Fast to run, simple to operate."
+		},
+		"calendar": {
+			"title": "Calendar feeds",
+			"text": "Subscribe to due dates in your calendar with a read-only ICS feed."
+		}
+	},
+	"soon": "Coming soon",
+	"deploy": {
+		"cloudLabel": "Kanlo Cloud",
+		"cloudTitle": "Sign up. Invite. Ship.",
+		"cloudText": "Hosted on European servers and always up to date. No setup, no maintenance.",
+		"enterpriseLabel": "Kanlo Enterprise",
+		"enterpriseTitle": "Your servers. Your rules.",
+		"enterpriseText": "Self-host it on your own servers or get a dedicated server. Includes Microsoft sign-in.",
+		"audit": "Audit log · Coming soon"
+	},
+	"pricing": {
+		"title": "Priced per user.",
+		"sub": "Per user, per month.",
+		"inclVat": "incl. 19% VAT",
+		"exclVat": "excl. VAT",
+		"team": { "includes": "Boards, projects and cards · Labels and assignees · [TEAM FEATURES]" },
+		"business": { "includes": "Everything in Team · [BUSINESS FEATURES]" },
+		"enterprise": {
+			"includes": "Everything in Business · Microsoft sign-in · Self-hosted or dedicated · Audit log"
+		}
+	},
+	"cta": { "title": "Ready to move your work forward?" },
+	"footer": {
+		"copyright": "© {year} RealGolf.Games UG (haftungsbeschränkt). Kanlo™ and Swingalytica™.",
+		"imprint": "Imprint"
+	}
+}
